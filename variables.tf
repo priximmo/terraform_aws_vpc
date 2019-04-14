@@ -13,7 +13,6 @@ variable "aws_region" {
 variable "aws_amis" {
   default = {
     us-east-1 = "ami-0a313d6098716f372"
-    eu-west-1 = "ami-6e28b517"
   }
 }
 variable "vpc_name"{
